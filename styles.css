@@ -209,5 +209,34 @@ nav {
   gap: 20px;
   font-size: 25px;
   padding: 100px;
+}
 
+.footer-grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  height: 50vh;
+  padding: 100px;
+}
+
+.footer-items a{
+  display: flex;
+  flex-direction: column;
+}
+
+.border-line{
+  background-color: black;
+  border-top: 1px solid;
+  color: white;
+  padding: 90px 0;
+  height: 15vh;
+  align-items: center;
+}
+.border-line h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
